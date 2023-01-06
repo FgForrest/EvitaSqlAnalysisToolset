@@ -37,7 +37,6 @@ CREATE TABLE t_attribute
     filterable          boolean DEFAULT false,
     sortable            boolean DEFAULT false,
     locale              char(3),
-    -- targetType           varchar  -- todo: možnost optimalizace či zjedodušení dotazu podle enumu
     stringValue         varchar(512),
     intValue            bigint,
     dateValue           timestamp,
